@@ -33,6 +33,6 @@ def send_motivation():
 # ------------------ Checking the day -----------------------#
 
 weekday = now.weekday()
-
+    
 if weekday == 0:
     send_motivation()
